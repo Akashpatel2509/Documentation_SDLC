@@ -1,61 +1,42 @@
-User Characteristics 
+1. Customer PortalGoal: 
+To provide an efficient and easy-to-use platform where customers can request cleaning and maintenance services through an online portal. 
+Service Search & Discovery: Customers must be able to browse a service catalog and see providers nearest to their location. 
 
- Mobility: The proposed system would be platform independent as it can be used using 
-desktop as well as smart phone and tablets. 
- Efficiency: The new proposed service providing system is very efficient and less time 
-consuming compared to current system.  
- User-friendly: It provides user friendly interface in form of web application, mobile 
-application or desktop application so user can easily access and use it.  
- Easy to Use: It is very easy to use relatively current system to find service provider to get 
-service.  
- Safety: It validates user by login activity and provides facilities like forgot password and 
-create new user.  
+One-Click Booking: The platform shall facilitate booking a service provider via a one-click service feature. Scheduling: Customers must be able to select a specific date and time slot for their service appointment. 
 
+Order Tracking: Customers must have the ability to check their order status and view their booking history. 
 
-Functional & Non- Functional Requirements 
+Review & Rating System: Customers shall have the feature to rate service providers and provide feedback/reviews to assist other users. 
 
+2. Service Provider PortalGoal: 
+To allow service providers to reach customers, manage work efficiently, and provide transparent services. Profile Setup: Service providers must be able to register and manage their profile details, including uploading documentation images. 
 
- Functional Requirements: 
-System Functional requirement describes activities and services that must provide. 
- Taking and Reviewing service provider service in specific time. 
- Track location of service provider which is nearest to customer if it available than suggest 
-to customer. 
- Permitting to admin to remove service category or remove a single service. 
- Showing the customer feedback to service provider's service and how the digyata team can 
-be Best. 
+Service Listing Management: Providers must be able to add specific service items to their listing and include descriptions of the work they perform. 
 
+Booking Management: Providers must be able to receive service requests, manage their work schedule, and update order statuses. 
 
- Non- Functional Requirements: 
-Non-functional Requirements are characteristics or attributes of the system that can judge its 
-operation. The following points clarify them: 
- Accuracy and Precision: The system should perform its process in accuracy and Precision 
-to avoid problems. 
- Modifiability: The system should be easy to modify, any wrong should be correct 
- Security: The system should be secure and saving customer's privacy. 
- Usability: The system should be easy to deal with and simple to understand.  
- Maintainability: The maintenance group should be able to fix any problem occur 
-suddenly.  
- Speed and Responsiveness: Execution of operations should be fast. 
+Work Completion: Providers must be able to issue a receipt or slip to be signed by the customer upon completion of the work. 
 
+Performance Monitoring: Providers should be able to view their accumulated ratings and customer feedback to maintain service quality. 
 
+3. Admin PortalGoal: 
+To manage the overall ecosystem, ensuring system security and maintaining the platform's service offerings. User Management: Admins must have the authority to manage both customer and service provider accounts. 
 
-Hardware & Software Requirements 
+Service Category Management: Admins must be able to add, update, or remove service categories and individual services from the catalog. 
 
- Hardware Requirements: 
- 8 GB RAM  
- 1 TB Hard Disk 
- 64-bit Intel Core i5/i7 Processor 
- Internet/LAN 
- Smartphone/Laptop 
+Pricing Oversight: Admins shall have the ability to change service prices and manage price rules within the system. 
 
- Software Requirements: 
- Windows 10 Operating System  
- Xammp Software 
- Laravel 7 
- Php 7.4.10 
- MySQL 
- PhpStorm 
- Mozilla Firefox/Google Chrome 
- Domain 
- Hosting 
- SSL Certificate 
+System Reporting: Admins must be able to view all order details and customer feedback to ensure the team provides the best possible service. 
+
+4. Cross-Portal Interactions
+Notification Triggers: When a customer books a service, the request must be instantly available to the relevant service provider. 
+
+Real-Time Status Sync: Changes in order status made by the provider (e.g., "Work is done") must be reflected immediately for the customer. 
+
+Automated Feedback Loop: Ratings submitted by a customer must automatically update the service provider's public profile and be visible to the Admin. 
+
+Acceptance Criteria Checklist:
+[ ] Customer portal includes search, booking, scheduling, and review/rating.
+[ ] Service Provider portal includes booking management and profile setup.
+[] Admin portal includes user management, service management, and reporting.
+[ ] Full requirements list reviewed and signed off by the team.
